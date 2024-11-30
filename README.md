@@ -48,7 +48,7 @@ With EstateX, users can tokenize real estate properties into NFTs, enabling frac
 3. Set up environment variables:
    Create a `.env.local` file and add the following:
    ```env
-   NEXT_PUBLIC_AUTH_API_KEY=<your Kalp DLT Api Auth key>
+   NEXT_PUBLIC_API_ID=<your Kalp DLT Api Auth key>
    NEXT_PUBLIC_CONTRACT_ID=<backend smart contract address>
    ```
 
