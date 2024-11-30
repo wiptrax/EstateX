@@ -1,7 +1,7 @@
 
 export const useKalpApi = () => {
 
-  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+  const apiKey = process.env.NEXT_PUBLIC_AUTH_API_KEY;
   const contractId = process.env.NEXT_PUBLIC_CONTRACT_ID;
 
   const callApi = async (endpoint: string, args: { [key: string]: any } = {}) => {
